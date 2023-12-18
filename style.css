@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(14, 14, 46);
+}
+
+.wrapper {
+    border: 3px solid #00a6ff;
+    padding: 30px;
+    width: 494.5px;
+    display: flex;
+    justify-content: center;
+}
+
+.clock {
+    font-family: 'Open 24 Display St';
+    color: #00a6ff;
+    position: relative;
+}
+
+h1 {
+    line-height: .6;
+    font-size: 8rem;
+    letter-spacing: .6rem;
+}
+
+h3 {
+    letter-spacing: .3rem;
+    position: absolute;
+
+}
+
+#date {
+    bottom: 105%;
+    left: 10%;
+}
+
+#period {
+    bottom: 105%;
+    left: 0;
+}
+
+span {
+    animation: anime infinite 1s;
+}
+
+@keyframes anime {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: .1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
