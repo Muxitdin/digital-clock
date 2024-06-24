@@ -5,5 +5,5 @@ My links:\
 [Instagram][inst]
 [telegram][tg]
 
-[inst]: https://www.instagram.com/mukhitdin.dev
-[tg]: https://t.me/leviwelluckerman
+[inst]: https://www.instagram.com/__mukhitdin/
+[tg]: https://t.me/nuritdinovm
